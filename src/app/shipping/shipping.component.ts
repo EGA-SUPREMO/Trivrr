@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CartService } from '../cart.service';
+import { WordsService } from '../words.service';
 
 @Component({
   selector: 'app-shipping',
@@ -10,11 +10,11 @@ export class ShippingComponent implements OnInit {
 
   shippingCosts;
   constructor(
-    private cartService: CartService
+    private cartService: WordsService
   ) { }
 
   ngOnInit() {
-    this.shippingCosts = this.cartService.getShippingPrices();
+    this.shippingCosts = this.cartService.getWords();
   }
 
 }
