@@ -24,6 +24,7 @@ import { HomeComponent } from './home/home.component';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart' , component: CartComponent},
       { path: 'shipping', component: ShippingComponent },
+      { path: 'start', component: ProductListComponent },
     ])
   ],
   declarations: [
