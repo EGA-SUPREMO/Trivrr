@@ -1,7 +1,7 @@
 <h2>Please select one</h2>
 <h3>Chair means</h3>
-<div *ngFor="let product of products; index as productId">
-  <button [title]="product.name + ' details'" [routerLink]="['/products', productId]">
+<div *ngFor="let word of words; index as wordId">
+  <button [title]="word.name" [routerLink]="['/products', productId]">
     {{ product.name }}
   </button>
 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WordsService } from '../words.service';
+import { WordSetService } from '../wordSet.service';
 
 @Component({
   selector: 'app-shipping',
@@ -10,11 +10,11 @@ export class ShippingComponent implements OnInit {
 
   shippingCosts;
   constructor(
-    private cartService: WordsService
+    private cartService: WordSetService
   ) { }
 
   ngOnInit() {
-    this.shippingCosts = this.cartService.getWords();
+    this.shippingCosts = this.cartService.getWordSet();
   }
 
 }
