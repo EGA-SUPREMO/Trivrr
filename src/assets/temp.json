@@ -1,0 +1,18 @@
+[
+  {
+    "word": "Mesa",
+    "isRightWord": false
+  },
+  {
+    "word": "Masa",
+    "isRightWord": false
+  },
+  {
+    "word": "Silla",
+    "isRightWord": true
+  },
+  {
+    "word": "Tela",
+    "isRightWord": false
+  }
+]

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { products } from '../products';
+import { WordSetService } from '../wordSet.service';
 
 @Component({
   selector: 'app-product-list',
@@ -8,7 +8,13 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products;
+  wordSet;
+
+  constructor(private wordSetService: WordSetService) { }
+
+  ngOnInit() {
+    this.wordSet = this.wordSetService.getWordSet();
+  }
 
   share() {
     window.alert('The product has been shared!');
