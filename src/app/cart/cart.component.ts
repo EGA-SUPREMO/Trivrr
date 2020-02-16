@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from  '@angular/forms';
 
-import { CartService } from '../cart.service';
+import { WordSetService } from '../wordSet.service';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -12,7 +12,7 @@ export class CartComponent implements OnInit {
   checkoutForm;
 
   constructor(
-    private cartService: CartService,
+    private cartService: WordSetService,
     private formBuilder: FormBuilder,
   ) {
     this.checkoutForm = this.formBuilder.group({
@@ -22,14 +22,14 @@ export class CartComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.items = this.cartService.getItems();
+    this.items = this.cartService.getCurrentWordSet();
   }
 
   onSubmit(costumerData) {
     //Process the data
     console.warn('Your order has been sumbitted', costumerData);
 
-    this.items = this.cartService.clearCart();
+    this.items = this.cartService.clearCurrentWordSet();
     this.checkoutForm.reset();
   }
 }
