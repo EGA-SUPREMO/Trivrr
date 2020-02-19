@@ -9,6 +9,8 @@ import { WordSetService } from '../wordSet.service';
 })
 export class ProductListComponent {
   wordSet;
+  currentWordId;
+  isNextClicked;
 
   constructor(private wordSetService: WordSetService) { }
 
@@ -21,6 +23,10 @@ export class ProductListComponent {
   }
   onNotify() {
     window.alert('You will notified when the product goes on sale');
+  }
+  nextTrivia(id) {
+    this.isNextClicked = true;
+    this.currentWordId = id;
   }
 }
 
