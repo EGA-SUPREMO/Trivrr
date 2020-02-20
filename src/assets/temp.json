@@ -1,18 +1,22 @@
 [
   {
     "word": "Mesa",
-    "isRightWord": false
+    "isRightWord": false,
+    "id": 0
   },
   {
     "word": "Masa",
-    "isRightWord": false
+    "isRightWord": false,
+    "id": 1
   },
   {
     "word": "Silla",
-    "isRightWord": true
+    "isRightWord": true,
+    "id": 2
   },
   {
     "word": "Tela",
-    "isRightWord": false
+    "isRightWord": false,
+    "id": 3
   }
 ]

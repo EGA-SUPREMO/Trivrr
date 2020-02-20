@@ -13,6 +13,7 @@ import { WordSetService } from './wordSet.service';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { HomeComponent } from './home/home.component';
+import { ResultWordListComponent } from './result-word-list/result-word-list.component';
 
 @NgModule({
   imports: [
@@ -35,7 +36,8 @@ import { HomeComponent } from './home/home.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    HomeComponent
+    HomeComponent,
+    ResultWordListComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [ WordSetService ]

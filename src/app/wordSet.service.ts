@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WordSetService {
 
-  currentWordSetet = [];
+  currentWordSet = [];
 
   addWordSet(wordSet) {
     this.currentWordSet.push(wordSet);
