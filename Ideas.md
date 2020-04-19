@@ -36,6 +36,6 @@ Make a database with a table named users with named columns as "//TODO" and a ta
 3
 
 add an small collection of 20 words at the languages EN(english) and ES(Spanish) to database and test the app
--
+
 
 after user selects a word make that if the user hovers a button show whithin the button the right word and an small definition.
