@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Basic files from "laravel new Trivrr"
+- Basic files from "$ laravel new Trivrr"
 
 ### Changed
 - Update Ideas.md.
