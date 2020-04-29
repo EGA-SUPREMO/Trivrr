@@ -1,3 +1,5 @@
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/EGA-SUPREMO/Trivrr?color=dgreen&label=Release&style=flat-square)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
 # Trivrr
 a trivia game, this app will display a word from one language and 4 options from the language the user need to learn and only one of them is right. Pretty similar to trivia.
 
