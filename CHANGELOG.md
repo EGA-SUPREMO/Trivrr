@@ -45,4 +45,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README.
 - Dependencies and config files from Angular.
 - Basic folder structure.
-- Web pages from the official getting started tutorial of Angular website with small edits.
+- Pages from the official getting started tutorial of Angular website with small edits.
