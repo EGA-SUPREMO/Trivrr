@@ -33,8 +33,7 @@ jobs:
         run: composer update --${{ matrix.stability }} --prefer-dist --no-interaction --no-progress
 
       - name: Execute tests
-        run: vendor/bin/phpunit --verbose
+        run: php artisan test
 
       - name: Check Style
-        run: php -v
-
+        run: vendor/bin/phpcs -h
