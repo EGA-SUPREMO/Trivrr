@@ -1,0 +1,15 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Relations\Pivot;
+
+class {{ class }} extends Pivot
+{
+    /**
+     * Turn off mass assignment protection
+     *
+     * @var array
+     */
+    protected $guarded = [];
+}
