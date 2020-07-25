@@ -34,6 +34,3 @@ jobs:
 
       - name: Execute tests
         run: php artisan test
-
-      - name: Check Style
-        run: vendor/bin/phpcs ./
