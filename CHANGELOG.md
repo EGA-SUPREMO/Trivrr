@@ -5,11 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.4.0] 2020-07-26
 ### Added
 - Basic files from `$ laravel new Trivrr`
 - Custom stubs from [Laravel Template Website repo](https://github.com/EGA-SUPREMO/Laravel-Template-Website)
 - Configure .env files
-- GitHub Actions
+- GitHub Actions for tests
+- Basic auth
 
 ### Changed
 - Update Ideas.md
