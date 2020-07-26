@@ -5,14 +5,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.4.0] 2020-07-26
 ### Added
-- Basic files from "$ laravel new Trivrr"
+- Basic files from `$ laravel new Trivrr`
+- Custom stubs from [Laravel Template Website repo](https://github.com/EGA-SUPREMO/Laravel-Template-Website)
+- Configure .env files
+- GitHub Actions for tests
+- Basic auth
 
 ### Changed
-- Update Ideas.md.
+- Update Ideas.md
+- .editorconfig to meet coventions
 
 ### Removed
-- Flask and Angular files including: dependencies and config files, web pages, user login system, routing and databases.
+- Flask and Angular files including: dependencies and config files, web pages, user login system, routing and databases, left a few of them only for reference.
 
 ## [0.3.0] 2020-02-20
 ### Added
